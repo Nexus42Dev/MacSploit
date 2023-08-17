@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo -e "Downloading MacSploit"
-curl -O "https://cdn.discordapp.com/attachments/1100029005819813928/1141593315205201981/MacSploit.zip"
+curl -O "https://raw.githubusercontent.com/Nexus42Dev/MacSploit/main/MacSploit.zip"
 
 echo -e "Installing MacSploit"
 unzip ./MacSploit.zip
