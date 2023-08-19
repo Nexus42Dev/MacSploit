@@ -4,9 +4,7 @@ echo -e "Downloading MacSploit"
 curl -O "https://raw.githubusercontent.com/Nexus42Dev/MacSploit/main/MacSploit.zip"
 
 echo -e "Installing MacSploit"
-unzip ./MacSploit.zip
-sleep 1
-echo -e "Done"
+unzip -o -q "./MacSploit.zip"
 
 echo -e "Patching Roblox"
 mv ./macsploit.dylib "/Applications/Roblox.app/Contents/MacOS/macsploit.dylib"
