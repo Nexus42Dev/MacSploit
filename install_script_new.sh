@@ -2,7 +2,7 @@
 
 main() {
     echo -e "Downloading Latest Roblox"
-    local version=$(curl -s "http://setup.roblox.com/mac/version")
+    local version="version-24b06fe4fe1c4c9d"
     curl "http://setup.rbxcdn.com/mac/$version-RobloxPlayer.zip" -o "./RobloxPlayer.zip"
 
     echo -e "Installing Latest Roblox"
