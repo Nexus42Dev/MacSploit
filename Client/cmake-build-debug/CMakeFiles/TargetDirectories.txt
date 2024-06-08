@@ -1,0 +1,3 @@
+/Users/Nexus42/Documents/ProjectAbyssMac/Client/cmake-build-debug/CMakeFiles/Client.dir
+/Users/Nexus42/Documents/ProjectAbyssMac/Client/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/Nexus42/Documents/ProjectAbyssMac/Client/cmake-build-debug/CMakeFiles/rebuild_cache.dir

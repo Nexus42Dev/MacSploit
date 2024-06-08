@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/Users/Nexus42/Documents/ProjectAbyssMac/Client/build",
+  "command": "/usr/bin/clang++ -I/Users/Nexus42/Documents/ProjectAbyssMac/Client/. -I/Users/Nexus42/Documents/ProjectAbyssMac/Client/ixwebsocket -I/Users/Nexus42/Documents/ProjectAbyssMac/Client/openssl -I/Users/Nexus42/Documents/ProjectAbyssMac/Client/Luau -I/Users/Nexus42/Documents/ProjectAbyssMac/Client/imgui -isystem /Users/Nexus42/Documents/ProjectAbyssMac/Client/metal-cpp -stdlib=libc++ -std=c++20 -lz -framework Security -framework Foundation -dynamiclib -Qunused-arguments -lcurl -O3 -DNDEBUG -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=11.0 -std=gnu++17 -o CMakeFiles/Client.dir/exploit.cpp.o -c /Users/Nexus42/Documents/ProjectAbyssMac/Client/exploit.cpp",
+  "file": "/Users/Nexus42/Documents/ProjectAbyssMac/Client/exploit.cpp"
+}
+]

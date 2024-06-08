@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libtest-main.a "CMakeFiles/test-main.dir/test-main.cc.o" "CMakeFiles/test-main.dir/gtest-extra.cc.o" "CMakeFiles/test-main.dir/util.cc.o"
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libtest-main.a
