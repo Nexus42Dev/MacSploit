@@ -19,66 +19,6 @@
 #define STACK_SIZE 65536
 #define CODE_SIZE 128
 
-// Due to popular request:
-//
-// Simple injector example (and basis of coreruption tool).
-//
-// If you've looked into research on injection techniques in OS X, you
-// probably know about mach_inject. This tool, part of Dino Dai Zovi's
-// excellent "Mac Hacker's Handbook" (a must read - kudos, DDZ) was
-// created to inject code in PPC and i386. Since I couldn't find anything
-// for x86_64 or ARM, I ended up writing my own tool.
-
-// Since, this tool has exploded in functionality - with many other features,
-// including scriptable debugging, fault injection, function hooking, code 
-// decryption,  and what not - which comes in *really* handy on iOS.
-//
-// coreruption is still closed source, due its highly.. uhm.. useful
-// nature. But I'm making this sample free, and I have fully annotated this.
-// The rest of the stuff you need is in Chapters 11 and 12 MOXiI 1, with more
-// to come in the 2nd Ed (..in time for iOS 9 :-)
-//
-// Go forth and spread your code :-)
-//
-// J (info@newosxbook.com) 02/05/2014
-//
-// v2: With ARM64 -  06/02/2015 NOTE - ONLY FOR **ARM64**, NOT ARM32!
-// Get the full bundle at - http://NewOSXBook.com/files/injarm64.tar
-// with sample dylib and with script to compile this neatly.
-//
-//**********************************************************************
-// Note ARM code IS messy, and I left the addresses wide apart. That's 
-// intentional. Basic ARM64 assembly will enable you to tidy this up and
-// make the code more compact. 
-//
-// This is *not* meant to be neat - I'm just preparing this for TG's
-// upcoming OS X/iOS RE course (http://technologeeks.com/OSXRE) and thought
-// this would be interesting to share. See you all in MOXiI 2nd Ed!
-//**********************************************************************
-
-// Update (7/16/2019): 
-// You'll need to change pthread_set_self to from ..from_mach_thread, 
-// which is required as a workaround for behavior change in Mojave (10.14) and later iOS 12
-// q.v. https://knight.sc/malware/2019/03/15/code-injection-on-macos.html
-
-// This sample code calls pthread_set_self to promote the injected thread
-// to a pthread first - otherwise dlopen and many other calls (which rely
-// on pthread_self()) will crash. 
-// It then calls dlopen() to load the library specified - which will trigger
-// the library's constructor (q.e.d as far as code injection is concerned)
-// and sleep for a long time. You can of course replace the sleep with
-// another function, such as pthread_exit(), etc.
-//
-// (For the constructor, use:
-//
-// static void whicheverfunc() __attribute__((constructor));
-//
-// in the library you inject)
-//
-// Note that the functions are shown here as "_PTHRDSS", "DLOPEN__" and "SLEEP___".
-// Reason being, that the above are merely placeholders which will be patched with
-// the runtime addresses when code is actually injected.
-//
 char injectedCode[] =
      //"\xcc"                           //  int3   
      "\x90"				// nop..
