@@ -42,7 +42,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /Applications/CMake.app/Contents/bin/cmake --regenerate-during-build -S/Users/Nexus42/Documents/ProjectAbyssMac/Client -B/Users/Nexus42/Documents/ProjectAbyssMac/Client/build
+  command = /Applications/CMake.app/Contents/bin/cmake --regenerate-during-build -S/Users/milo/Documents/ProjectAbyssMac/Client -B/Users/milo/Documents/ProjectAbyssMac/Client/build
   description = Re-running CMake...
   generator = 1
 

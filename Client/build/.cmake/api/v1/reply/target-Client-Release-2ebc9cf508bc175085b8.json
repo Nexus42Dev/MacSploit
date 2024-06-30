@@ -114,28 +114,28 @@
 			[
 				{
 					"backtrace" : 7,
-					"path" : "/Users/Nexus42/Documents/ProjectAbyssMac/Client/."
+					"path" : "/Users/milo/Documents/ProjectAbyssMac/Client/."
 				},
 				{
 					"backtrace" : 8,
-					"path" : "/Users/Nexus42/Documents/ProjectAbyssMac/Client/ixwebsocket"
+					"path" : "/Users/milo/Documents/ProjectAbyssMac/Client/ixwebsocket"
 				},
 				{
 					"backtrace" : 9,
-					"path" : "/Users/Nexus42/Documents/ProjectAbyssMac/Client/openssl"
+					"path" : "/Users/milo/Documents/ProjectAbyssMac/Client/openssl"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "/Users/Nexus42/Documents/ProjectAbyssMac/Client/Luau"
+					"path" : "/Users/milo/Documents/ProjectAbyssMac/Client/Luau"
 				},
 				{
 					"backtrace" : 11,
-					"path" : "/Users/Nexus42/Documents/ProjectAbyssMac/Client/imgui"
+					"path" : "/Users/milo/Documents/ProjectAbyssMac/Client/imgui"
 				},
 				{
 					"backtrace" : 12,
 					"isSystem" : true,
-					"path" : "/Users/Nexus42/Documents/ProjectAbyssMac/Client/metal-cpp"
+					"path" : "/Users/milo/Documents/ProjectAbyssMac/Client/metal-cpp"
 				}
 			],
 			"language" : "CXX",
@@ -177,22 +177,22 @@
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "/Users/Nexus42/Documents/ProjectAbyssMac/Client/ixwebsocket/libixwebsocket.a",
+				"fragment" : "/Users/milo/Documents/ProjectAbyssMac/Client/ixwebsocket/libixwebsocket.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "/Users/Nexus42/Documents/ProjectAbyssMac/Client/LuauLibraries/libLuau.Ast.a",
+				"fragment" : "/Users/milo/Documents/ProjectAbyssMac/Client/LuauLibraries/libLuau.Ast.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 5,
-				"fragment" : "/Users/Nexus42/Documents/ProjectAbyssMac/Client/LuauLibraries/libLuau.Compiler.a",
+				"fragment" : "/Users/milo/Documents/ProjectAbyssMac/Client/LuauLibraries/libLuau.Compiler.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 6,
-				"fragment" : "/Users/Nexus42/Documents/ProjectAbyssMac/Client/openssl/libcrypto.a",
+				"fragment" : "/Users/milo/Documents/ProjectAbyssMac/Client/openssl/libcrypto.a",
 				"role" : "libraries"
 			},
 			{

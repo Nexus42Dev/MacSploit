@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/Nexus42/Documents/ProjectAbyssMac/Client/cmake-build-debug"
+			"value" : "/Users/milo/Documents/ProjectAbyssMac/Client/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -479,7 +479,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/Nexus42/Documents/ProjectAbyssMac/Client/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "/Users/milo/Documents/ProjectAbyssMac/Client/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -539,7 +539,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/Nexus42/Documents/ProjectAbyssMac/Client"
+			"value" : "/Users/milo/Documents/ProjectAbyssMac/Client"
 		},
 		{
 			"name" : "CMAKE_INSTALL_NAME_TOOL",
@@ -595,7 +595,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/Users/Nexus42/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/CLion.app/Contents/bin/ninja/mac/ninja"
+			"value" : "/Users/milo/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/CLion.app/Contents/bin/ninja/mac/ninja"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",
@@ -1111,7 +1111,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/Nexus42/Documents/ProjectAbyssMac/Client/cmake-build-debug"
+			"value" : "/Users/milo/Documents/ProjectAbyssMac/Client/cmake-build-debug"
 		},
 		{
 			"name" : "Client_IS_TOP_LEVEL",
@@ -1135,7 +1135,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/Nexus42/Documents/ProjectAbyssMac/Client"
+			"value" : "/Users/milo/Documents/ProjectAbyssMac/Client"
 		}
 	],
 	"kind" : "cache",

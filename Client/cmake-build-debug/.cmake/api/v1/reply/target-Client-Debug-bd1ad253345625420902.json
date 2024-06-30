@@ -72,11 +72,11 @@
 			[
 				{
 					"backtrace" : 4,
-					"path" : "/Users/Nexus42/Documents/ProjectAbyssMac/Client/."
+					"path" : "/Users/milo/Documents/ProjectAbyssMac/Client/."
 				},
 				{
 					"backtrace" : 5,
-					"path" : "/Users/Nexus42/Documents/ProjectAbyssMac/Client/Luau"
+					"path" : "/Users/milo/Documents/ProjectAbyssMac/Client/Luau"
 				}
 			],
 			"language" : "CXX",
@@ -109,12 +109,12 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "/Users/Nexus42/Documents/ProjectAbyssMac/Client/LuauLibraries/libLuau.Ast.a",
+				"fragment" : "/Users/milo/Documents/ProjectAbyssMac/Client/LuauLibraries/libLuau.Ast.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "/Users/Nexus42/Documents/ProjectAbyssMac/Client/LuauLibraries/libLuau.Compiler.a",
+				"fragment" : "/Users/milo/Documents/ProjectAbyssMac/Client/LuauLibraries/libLuau.Compiler.a",
 				"role" : "libraries"
 			}
 		],

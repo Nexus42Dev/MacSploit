@@ -42,7 +42,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /Applications/CMake.app/Contents/bin/cmake --regenerate-during-build -S/Users/Nexus42/Documents/ProjectAbyssMac/Client -B/Users/Nexus42/Documents/ProjectAbyssMac/Client/cmake-build-debug
+  command = /Applications/CMake.app/Contents/bin/cmake --regenerate-during-build -S/Users/milo/Documents/ProjectAbyssMac/Client -B/Users/milo/Documents/ProjectAbyssMac/Client/cmake-build-debug
   description = Re-running CMake...
   generator = 1
 
@@ -51,7 +51,7 @@ rule RERUN_CMAKE
 # Rule for cleaning all built files.
 
 rule CLEAN
-  command = "/Users/Nexus42/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/CLion.app/Contents/bin/ninja/mac/ninja" $FILE_ARG -t clean $TARGETS
+  command = "/Users/milo/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/CLion.app/Contents/bin/ninja/mac/ninja" $FILE_ARG -t clean $TARGETS
   description = Cleaning all built files...
 
 
@@ -59,6 +59,6 @@ rule CLEAN
 # Rule for printing all primary targets available.
 
 rule HELP
-  command = "/Users/Nexus42/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/CLion.app/Contents/bin/ninja/mac/ninja" -t targets
+  command = "/Users/milo/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/CLion.app/Contents/bin/ninja/mac/ninja" -t targets
   description = All primary targets available:
 

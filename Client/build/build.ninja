@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /Users/Nexus42/Documents/ProjectAbyssMac/Client/build/
+cmake_ninja_workdir = /Users/milo/Documents/ProjectAbyssMac/Client/build/
 # =============================================================================
 # Object build statements for EXECUTABLE target Client
 
@@ -49,10 +49,10 @@ cmake_ninja_workdir = /Users/Nexus42/Documents/ProjectAbyssMac/Client/build/
 
 build cmake_object_order_depends_target_Client: phony || CMakeFiles/Client.dir
 
-build CMakeFiles/Client.dir/exploit.cpp.o: CXX_COMPILER__Client_Release /Users/Nexus42/Documents/ProjectAbyssMac/Client/exploit.cpp || cmake_object_order_depends_target_Client
+build CMakeFiles/Client.dir/exploit.cpp.o: CXX_COMPILER__Client_Release /Users/milo/Documents/ProjectAbyssMac/Client/exploit.cpp || cmake_object_order_depends_target_Client
   DEP_FILE = CMakeFiles/Client.dir/exploit.cpp.o.d
   FLAGS = -stdlib=libc++ -std=c++20 -lz -framework Security -framework Foundation -dynamiclib -Qunused-arguments -lcurl -O3 -DNDEBUG -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=11.0 -std=gnu++17
-  INCLUDES = -I/Users/Nexus42/Documents/ProjectAbyssMac/Client/. -I/Users/Nexus42/Documents/ProjectAbyssMac/Client/ixwebsocket -I/Users/Nexus42/Documents/ProjectAbyssMac/Client/openssl -I/Users/Nexus42/Documents/ProjectAbyssMac/Client/Luau -I/Users/Nexus42/Documents/ProjectAbyssMac/Client/imgui -isystem /Users/Nexus42/Documents/ProjectAbyssMac/Client/metal-cpp
+  INCLUDES = -I/Users/milo/Documents/ProjectAbyssMac/Client/. -I/Users/milo/Documents/ProjectAbyssMac/Client/ixwebsocket -I/Users/milo/Documents/ProjectAbyssMac/Client/openssl -I/Users/milo/Documents/ProjectAbyssMac/Client/Luau -I/Users/milo/Documents/ProjectAbyssMac/Client/imgui -isystem /Users/milo/Documents/ProjectAbyssMac/Client/metal-cpp
   OBJECT_DIR = CMakeFiles/Client.dir
   OBJECT_FILE_DIR = CMakeFiles/Client.dir
 
@@ -64,9 +64,9 @@ build CMakeFiles/Client.dir/exploit.cpp.o: CXX_COMPILER__Client_Release /Users/N
 #############################################
 # Link the executable exploit.dylib
 
-build exploit.dylib: CXX_EXECUTABLE_LINKER__Client_Release CMakeFiles/Client.dir/exploit.cpp.o | /Applications/Roblox.app/Contents/MacOS/libdiscord-rpc.dylib /Users/Nexus42/Documents/ProjectAbyssMac/Client/ixwebsocket/libixwebsocket.a /Users/Nexus42/Documents/ProjectAbyssMac/Client/LuauLibraries/libLuau.Ast.a /Users/Nexus42/Documents/ProjectAbyssMac/Client/LuauLibraries/libLuau.Compiler.a /Users/Nexus42/Documents/ProjectAbyssMac/Client/openssl/libcrypto.a
+build exploit.dylib: CXX_EXECUTABLE_LINKER__Client_Release CMakeFiles/Client.dir/exploit.cpp.o | /Applications/Roblox.app/Contents/MacOS/libdiscord-rpc.dylib /Users/milo/Documents/ProjectAbyssMac/Client/ixwebsocket/libixwebsocket.a /Users/milo/Documents/ProjectAbyssMac/Client/LuauLibraries/libLuau.Ast.a /Users/milo/Documents/ProjectAbyssMac/Client/LuauLibraries/libLuau.Compiler.a /Users/milo/Documents/ProjectAbyssMac/Client/openssl/libcrypto.a
   FLAGS = -stdlib=libc++ -std=c++20 -lz -framework Security -framework Foundation -dynamiclib -Qunused-arguments -lcurl -O3 -DNDEBUG -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=11.0
-  LINK_LIBRARIES = -Wl,-rpath,/Applications/Roblox.app/Contents/MacOS  /Applications/Roblox.app/Contents/MacOS/libdiscord-rpc.dylib  /Users/Nexus42/Documents/ProjectAbyssMac/Client/ixwebsocket/libixwebsocket.a  /Users/Nexus42/Documents/ProjectAbyssMac/Client/LuauLibraries/libLuau.Ast.a  /Users/Nexus42/Documents/ProjectAbyssMac/Client/LuauLibraries/libLuau.Compiler.a  /Users/Nexus42/Documents/ProjectAbyssMac/Client/openssl/libcrypto.a  -Xlinker -framework -Xlinker Foundation  -Xlinker -framework -Xlinker QuartzCore  -Xlinker -framework -Xlinker Metal  -Xlinker -framework -Xlinker CoreGraphics  -Xlinker -framework -Xlinker MetalKit  -Xlinker -framework -Xlinker AppKit
+  LINK_LIBRARIES = -Wl,-rpath,/Applications/Roblox.app/Contents/MacOS  /Applications/Roblox.app/Contents/MacOS/libdiscord-rpc.dylib  /Users/milo/Documents/ProjectAbyssMac/Client/ixwebsocket/libixwebsocket.a  /Users/milo/Documents/ProjectAbyssMac/Client/LuauLibraries/libLuau.Ast.a  /Users/milo/Documents/ProjectAbyssMac/Client/LuauLibraries/libLuau.Compiler.a  /Users/milo/Documents/ProjectAbyssMac/Client/openssl/libcrypto.a  -Xlinker -framework -Xlinker Foundation  -Xlinker -framework -Xlinker QuartzCore  -Xlinker -framework -Xlinker Metal  -Xlinker -framework -Xlinker CoreGraphics  -Xlinker -framework -Xlinker MetalKit  -Xlinker -framework -Xlinker AppKit
   OBJECT_DIR = CMakeFiles/Client.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -78,7 +78,7 @@ build exploit.dylib: CXX_EXECUTABLE_LINKER__Client_Release CMakeFiles/Client.dir
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/Nexus42/Documents/ProjectAbyssMac/Client/build && /Applications/CMake.app/Contents/bin/ccmake -S/Users/Nexus42/Documents/ProjectAbyssMac/Client -B/Users/Nexus42/Documents/ProjectAbyssMac/Client/build
+  COMMAND = cd /Users/milo/Documents/ProjectAbyssMac/Client/build && /Applications/CMake.app/Contents/bin/ccmake -S/Users/milo/Documents/ProjectAbyssMac/Client -B/Users/milo/Documents/ProjectAbyssMac/Client/build
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -90,7 +90,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/Nexus42/Documents/ProjectAbyssMac/Client/build && /Applications/CMake.app/Contents/bin/cmake --regenerate-during-build -S/Users/Nexus42/Documents/ProjectAbyssMac/Client -B/Users/Nexus42/Documents/ProjectAbyssMac/Client/build
+  COMMAND = cd /Users/milo/Documents/ProjectAbyssMac/Client/build && /Applications/CMake.app/Contents/bin/cmake --regenerate-during-build -S/Users/milo/Documents/ProjectAbyssMac/Client -B/Users/milo/Documents/ProjectAbyssMac/Client/build
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -108,7 +108,7 @@ build Client: phony exploit.dylib
 # =============================================================================
 
 #############################################
-# Folder: /Users/Nexus42/Documents/ProjectAbyssMac/Client/build
+# Folder: /Users/milo/Documents/ProjectAbyssMac/Client/build
 
 build all: phony exploit.dylib
 
@@ -119,14 +119,14 @@ build all: phony exploit.dylib
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /Applications/CMake.app/Contents/share/cmake-3.25/Modules/CMakeCInformation.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/CMakeCXXInformation.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/CMakeGenericSystem.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/Compiler/AppleClang-C.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/Compiler/AppleClang-CXX.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/Compiler/Clang.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/Compiler/GNU.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/Platform/Apple-Clang-C.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/Platform/Apple-Clang.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/Platform/Darwin-Initialize.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/Platform/Darwin.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/Platform/UnixPaths.cmake /Users/Nexus42/Documents/ProjectAbyssMac/Client/CMakeLists.txt CMakeCache.txt CMakeFiles/3.25.1/CMakeCCompiler.cmake CMakeFiles/3.25.1/CMakeCXXCompiler.cmake CMakeFiles/3.25.1/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /Applications/CMake.app/Contents/share/cmake-3.25/Modules/CMakeCInformation.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/CMakeCXXInformation.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/CMakeGenericSystem.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/Compiler/AppleClang-C.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/Compiler/AppleClang-CXX.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/Compiler/Clang.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/Compiler/GNU.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/Platform/Apple-Clang-C.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/Platform/Apple-Clang.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/Platform/Darwin-Initialize.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/Platform/Darwin.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/Platform/UnixPaths.cmake /Users/milo/Documents/ProjectAbyssMac/Client/CMakeLists.txt CMakeCache.txt CMakeFiles/3.25.1/CMakeCCompiler.cmake CMakeFiles/3.25.1/CMakeCXXCompiler.cmake CMakeFiles/3.25.1/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /Applications/CMake.app/Contents/share/cmake-3.25/Modules/CMakeCInformation.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/CMakeCXXInformation.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/CMakeGenericSystem.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/Compiler/AppleClang-C.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/Compiler/AppleClang-CXX.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/Compiler/Clang.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/Compiler/GNU.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/Platform/Apple-Clang-C.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/Platform/Apple-Clang.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/Platform/Darwin-Initialize.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/Platform/Darwin.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/Platform/UnixPaths.cmake /Users/Nexus42/Documents/ProjectAbyssMac/Client/CMakeLists.txt CMakeCache.txt CMakeFiles/3.25.1/CMakeCCompiler.cmake CMakeFiles/3.25.1/CMakeCXXCompiler.cmake CMakeFiles/3.25.1/CMakeSystem.cmake: phony
+build /Applications/CMake.app/Contents/share/cmake-3.25/Modules/CMakeCInformation.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/CMakeCXXInformation.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/CMakeGenericSystem.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/Compiler/AppleClang-C.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/Compiler/AppleClang-CXX.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/Compiler/Clang.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/Compiler/GNU.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/Platform/Apple-Clang-C.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/Platform/Apple-Clang.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/Platform/Darwin-Initialize.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/Platform/Darwin.cmake /Applications/CMake.app/Contents/share/cmake-3.25/Modules/Platform/UnixPaths.cmake /Users/milo/Documents/ProjectAbyssMac/Client/CMakeLists.txt CMakeCache.txt CMakeFiles/3.25.1/CMakeCCompiler.cmake CMakeFiles/3.25.1/CMakeCXXCompiler.cmake CMakeFiles/3.25.1/CMakeSystem.cmake: phony
 
 
 #############################################
