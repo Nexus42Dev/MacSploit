@@ -1,4 +1,4 @@
-# Install script for directory: /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/test
+# Install script for directory: /Users/milo/Documents/ProjectAbyssMac/Client/fmt/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,6 +39,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/build/test/gtest/cmake_install.cmake")
+  include("/Users/milo/Documents/ProjectAbyssMac/Client/fmt/build/test/gtest/cmake_install.cmake")
 endif()
 

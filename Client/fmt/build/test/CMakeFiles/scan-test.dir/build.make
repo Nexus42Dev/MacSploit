@@ -53,10 +53,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt
+CMAKE_SOURCE_DIR = /Users/milo/Documents/ProjectAbyssMac/Client/fmt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/build
+CMAKE_BINARY_DIR = /Users/milo/Documents/ProjectAbyssMac/Client/fmt/build
 
 # Include any dependencies generated for this target.
 include test/CMakeFiles/scan-test.dir/depend.make
@@ -70,18 +70,18 @@ include test/CMakeFiles/scan-test.dir/progress.make
 include test/CMakeFiles/scan-test.dir/flags.make
 
 test/CMakeFiles/scan-test.dir/scan-test.cc.o: test/CMakeFiles/scan-test.dir/flags.make
-test/CMakeFiles/scan-test.dir/scan-test.cc.o: /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/test/scan-test.cc
+test/CMakeFiles/scan-test.dir/scan-test.cc.o: /Users/milo/Documents/ProjectAbyssMac/Client/fmt/test/scan-test.cc
 test/CMakeFiles/scan-test.dir/scan-test.cc.o: test/CMakeFiles/scan-test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/scan-test.dir/scan-test.cc.o"
-	cd /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/build/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/scan-test.dir/scan-test.cc.o -MF CMakeFiles/scan-test.dir/scan-test.cc.o.d -o CMakeFiles/scan-test.dir/scan-test.cc.o -c /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/test/scan-test.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/milo/Documents/ProjectAbyssMac/Client/fmt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/scan-test.dir/scan-test.cc.o"
+	cd /Users/milo/Documents/ProjectAbyssMac/Client/fmt/build/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/scan-test.dir/scan-test.cc.o -MF CMakeFiles/scan-test.dir/scan-test.cc.o.d -o CMakeFiles/scan-test.dir/scan-test.cc.o -c /Users/milo/Documents/ProjectAbyssMac/Client/fmt/test/scan-test.cc
 
 test/CMakeFiles/scan-test.dir/scan-test.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/scan-test.dir/scan-test.cc.i"
-	cd /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/build/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/test/scan-test.cc > CMakeFiles/scan-test.dir/scan-test.cc.i
+	cd /Users/milo/Documents/ProjectAbyssMac/Client/fmt/build/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/milo/Documents/ProjectAbyssMac/Client/fmt/test/scan-test.cc > CMakeFiles/scan-test.dir/scan-test.cc.i
 
 test/CMakeFiles/scan-test.dir/scan-test.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/scan-test.dir/scan-test.cc.s"
-	cd /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/build/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/test/scan-test.cc -o CMakeFiles/scan-test.dir/scan-test.cc.s
+	cd /Users/milo/Documents/ProjectAbyssMac/Client/fmt/build/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/milo/Documents/ProjectAbyssMac/Client/fmt/test/scan-test.cc -o CMakeFiles/scan-test.dir/scan-test.cc.s
 
 # Object files for target scan-test
 scan__test_OBJECTS = \
@@ -96,18 +96,18 @@ bin/scan-test: test/libtest-main.a
 bin/scan-test: libfmt.a
 bin/scan-test: test/gtest/libgtest.a
 bin/scan-test: test/CMakeFiles/scan-test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../bin/scan-test"
-	cd /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/build/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/scan-test.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/milo/Documents/ProjectAbyssMac/Client/fmt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../bin/scan-test"
+	cd /Users/milo/Documents/ProjectAbyssMac/Client/fmt/build/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/scan-test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 test/CMakeFiles/scan-test.dir/build: bin/scan-test
 .PHONY : test/CMakeFiles/scan-test.dir/build
 
 test/CMakeFiles/scan-test.dir/clean:
-	cd /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/build/test && $(CMAKE_COMMAND) -P CMakeFiles/scan-test.dir/cmake_clean.cmake
+	cd /Users/milo/Documents/ProjectAbyssMac/Client/fmt/build/test && $(CMAKE_COMMAND) -P CMakeFiles/scan-test.dir/cmake_clean.cmake
 .PHONY : test/CMakeFiles/scan-test.dir/clean
 
 test/CMakeFiles/scan-test.dir/depend:
-	cd /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/test /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/build /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/build/test /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/build/test/CMakeFiles/scan-test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/milo/Documents/ProjectAbyssMac/Client/fmt/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/milo/Documents/ProjectAbyssMac/Client/fmt /Users/milo/Documents/ProjectAbyssMac/Client/fmt/test /Users/milo/Documents/ProjectAbyssMac/Client/fmt/build /Users/milo/Documents/ProjectAbyssMac/Client/fmt/build/test /Users/milo/Documents/ProjectAbyssMac/Client/fmt/build/test/CMakeFiles/scan-test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : test/CMakeFiles/scan-test.dir/depend
 

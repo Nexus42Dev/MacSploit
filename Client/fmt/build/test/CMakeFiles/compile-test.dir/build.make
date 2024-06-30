@@ -53,10 +53,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt
+CMAKE_SOURCE_DIR = /Users/milo/Documents/ProjectAbyssMac/Client/fmt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/build
+CMAKE_BINARY_DIR = /Users/milo/Documents/ProjectAbyssMac/Client/fmt/build
 
 # Include any dependencies generated for this target.
 include test/CMakeFiles/compile-test.dir/depend.make
@@ -70,18 +70,18 @@ include test/CMakeFiles/compile-test.dir/progress.make
 include test/CMakeFiles/compile-test.dir/flags.make
 
 test/CMakeFiles/compile-test.dir/compile-test.cc.o: test/CMakeFiles/compile-test.dir/flags.make
-test/CMakeFiles/compile-test.dir/compile-test.cc.o: /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/test/compile-test.cc
+test/CMakeFiles/compile-test.dir/compile-test.cc.o: /Users/milo/Documents/ProjectAbyssMac/Client/fmt/test/compile-test.cc
 test/CMakeFiles/compile-test.dir/compile-test.cc.o: test/CMakeFiles/compile-test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/compile-test.dir/compile-test.cc.o"
-	cd /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/build/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/compile-test.dir/compile-test.cc.o -MF CMakeFiles/compile-test.dir/compile-test.cc.o.d -o CMakeFiles/compile-test.dir/compile-test.cc.o -c /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/test/compile-test.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/milo/Documents/ProjectAbyssMac/Client/fmt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/compile-test.dir/compile-test.cc.o"
+	cd /Users/milo/Documents/ProjectAbyssMac/Client/fmt/build/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/compile-test.dir/compile-test.cc.o -MF CMakeFiles/compile-test.dir/compile-test.cc.o.d -o CMakeFiles/compile-test.dir/compile-test.cc.o -c /Users/milo/Documents/ProjectAbyssMac/Client/fmt/test/compile-test.cc
 
 test/CMakeFiles/compile-test.dir/compile-test.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/compile-test.dir/compile-test.cc.i"
-	cd /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/build/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/test/compile-test.cc > CMakeFiles/compile-test.dir/compile-test.cc.i
+	cd /Users/milo/Documents/ProjectAbyssMac/Client/fmt/build/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/milo/Documents/ProjectAbyssMac/Client/fmt/test/compile-test.cc > CMakeFiles/compile-test.dir/compile-test.cc.i
 
 test/CMakeFiles/compile-test.dir/compile-test.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/compile-test.dir/compile-test.cc.s"
-	cd /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/build/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/test/compile-test.cc -o CMakeFiles/compile-test.dir/compile-test.cc.s
+	cd /Users/milo/Documents/ProjectAbyssMac/Client/fmt/build/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/milo/Documents/ProjectAbyssMac/Client/fmt/test/compile-test.cc -o CMakeFiles/compile-test.dir/compile-test.cc.s
 
 # Object files for target compile-test
 compile__test_OBJECTS = \
@@ -96,18 +96,18 @@ bin/compile-test: test/libtest-main.a
 bin/compile-test: libfmt.a
 bin/compile-test: test/gtest/libgtest.a
 bin/compile-test: test/CMakeFiles/compile-test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../bin/compile-test"
-	cd /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/build/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/compile-test.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/milo/Documents/ProjectAbyssMac/Client/fmt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../bin/compile-test"
+	cd /Users/milo/Documents/ProjectAbyssMac/Client/fmt/build/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/compile-test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 test/CMakeFiles/compile-test.dir/build: bin/compile-test
 .PHONY : test/CMakeFiles/compile-test.dir/build
 
 test/CMakeFiles/compile-test.dir/clean:
-	cd /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/build/test && $(CMAKE_COMMAND) -P CMakeFiles/compile-test.dir/cmake_clean.cmake
+	cd /Users/milo/Documents/ProjectAbyssMac/Client/fmt/build/test && $(CMAKE_COMMAND) -P CMakeFiles/compile-test.dir/cmake_clean.cmake
 .PHONY : test/CMakeFiles/compile-test.dir/clean
 
 test/CMakeFiles/compile-test.dir/depend:
-	cd /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/test /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/build /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/build/test /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/build/test/CMakeFiles/compile-test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/milo/Documents/ProjectAbyssMac/Client/fmt/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/milo/Documents/ProjectAbyssMac/Client/fmt /Users/milo/Documents/ProjectAbyssMac/Client/fmt/test /Users/milo/Documents/ProjectAbyssMac/Client/fmt/build /Users/milo/Documents/ProjectAbyssMac/Client/fmt/build/test /Users/milo/Documents/ProjectAbyssMac/Client/fmt/build/test/CMakeFiles/compile-test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : test/CMakeFiles/compile-test.dir/depend
 

@@ -53,10 +53,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt
+CMAKE_SOURCE_DIR = /Users/milo/Documents/ProjectAbyssMac/Client/fmt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/build
+CMAKE_BINARY_DIR = /Users/milo/Documents/ProjectAbyssMac/Client/fmt/build
 
 # Include any dependencies generated for this target.
 include test/CMakeFiles/compile-fp-test.dir/depend.make
@@ -70,74 +70,74 @@ include test/CMakeFiles/compile-fp-test.dir/progress.make
 include test/CMakeFiles/compile-fp-test.dir/flags.make
 
 test/CMakeFiles/compile-fp-test.dir/compile-fp-test.cc.o: test/CMakeFiles/compile-fp-test.dir/flags.make
-test/CMakeFiles/compile-fp-test.dir/compile-fp-test.cc.o: /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/test/compile-fp-test.cc
+test/CMakeFiles/compile-fp-test.dir/compile-fp-test.cc.o: /Users/milo/Documents/ProjectAbyssMac/Client/fmt/test/compile-fp-test.cc
 test/CMakeFiles/compile-fp-test.dir/compile-fp-test.cc.o: test/CMakeFiles/compile-fp-test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/compile-fp-test.dir/compile-fp-test.cc.o"
-	cd /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/build/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/compile-fp-test.dir/compile-fp-test.cc.o -MF CMakeFiles/compile-fp-test.dir/compile-fp-test.cc.o.d -o CMakeFiles/compile-fp-test.dir/compile-fp-test.cc.o -c /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/test/compile-fp-test.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/milo/Documents/ProjectAbyssMac/Client/fmt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/compile-fp-test.dir/compile-fp-test.cc.o"
+	cd /Users/milo/Documents/ProjectAbyssMac/Client/fmt/build/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/compile-fp-test.dir/compile-fp-test.cc.o -MF CMakeFiles/compile-fp-test.dir/compile-fp-test.cc.o.d -o CMakeFiles/compile-fp-test.dir/compile-fp-test.cc.o -c /Users/milo/Documents/ProjectAbyssMac/Client/fmt/test/compile-fp-test.cc
 
 test/CMakeFiles/compile-fp-test.dir/compile-fp-test.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/compile-fp-test.dir/compile-fp-test.cc.i"
-	cd /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/build/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/test/compile-fp-test.cc > CMakeFiles/compile-fp-test.dir/compile-fp-test.cc.i
+	cd /Users/milo/Documents/ProjectAbyssMac/Client/fmt/build/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/milo/Documents/ProjectAbyssMac/Client/fmt/test/compile-fp-test.cc > CMakeFiles/compile-fp-test.dir/compile-fp-test.cc.i
 
 test/CMakeFiles/compile-fp-test.dir/compile-fp-test.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/compile-fp-test.dir/compile-fp-test.cc.s"
-	cd /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/build/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/test/compile-fp-test.cc -o CMakeFiles/compile-fp-test.dir/compile-fp-test.cc.s
+	cd /Users/milo/Documents/ProjectAbyssMac/Client/fmt/build/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/milo/Documents/ProjectAbyssMac/Client/fmt/test/compile-fp-test.cc -o CMakeFiles/compile-fp-test.dir/compile-fp-test.cc.s
 
 test/CMakeFiles/compile-fp-test.dir/test-main.cc.o: test/CMakeFiles/compile-fp-test.dir/flags.make
-test/CMakeFiles/compile-fp-test.dir/test-main.cc.o: /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/test/test-main.cc
+test/CMakeFiles/compile-fp-test.dir/test-main.cc.o: /Users/milo/Documents/ProjectAbyssMac/Client/fmt/test/test-main.cc
 test/CMakeFiles/compile-fp-test.dir/test-main.cc.o: test/CMakeFiles/compile-fp-test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object test/CMakeFiles/compile-fp-test.dir/test-main.cc.o"
-	cd /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/build/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/compile-fp-test.dir/test-main.cc.o -MF CMakeFiles/compile-fp-test.dir/test-main.cc.o.d -o CMakeFiles/compile-fp-test.dir/test-main.cc.o -c /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/test/test-main.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/milo/Documents/ProjectAbyssMac/Client/fmt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object test/CMakeFiles/compile-fp-test.dir/test-main.cc.o"
+	cd /Users/milo/Documents/ProjectAbyssMac/Client/fmt/build/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/compile-fp-test.dir/test-main.cc.o -MF CMakeFiles/compile-fp-test.dir/test-main.cc.o.d -o CMakeFiles/compile-fp-test.dir/test-main.cc.o -c /Users/milo/Documents/ProjectAbyssMac/Client/fmt/test/test-main.cc
 
 test/CMakeFiles/compile-fp-test.dir/test-main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/compile-fp-test.dir/test-main.cc.i"
-	cd /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/build/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/test/test-main.cc > CMakeFiles/compile-fp-test.dir/test-main.cc.i
+	cd /Users/milo/Documents/ProjectAbyssMac/Client/fmt/build/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/milo/Documents/ProjectAbyssMac/Client/fmt/test/test-main.cc > CMakeFiles/compile-fp-test.dir/test-main.cc.i
 
 test/CMakeFiles/compile-fp-test.dir/test-main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/compile-fp-test.dir/test-main.cc.s"
-	cd /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/build/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/test/test-main.cc -o CMakeFiles/compile-fp-test.dir/test-main.cc.s
+	cd /Users/milo/Documents/ProjectAbyssMac/Client/fmt/build/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/milo/Documents/ProjectAbyssMac/Client/fmt/test/test-main.cc -o CMakeFiles/compile-fp-test.dir/test-main.cc.s
 
 test/CMakeFiles/compile-fp-test.dir/gtest-extra.cc.o: test/CMakeFiles/compile-fp-test.dir/flags.make
-test/CMakeFiles/compile-fp-test.dir/gtest-extra.cc.o: /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/test/gtest-extra.cc
+test/CMakeFiles/compile-fp-test.dir/gtest-extra.cc.o: /Users/milo/Documents/ProjectAbyssMac/Client/fmt/test/gtest-extra.cc
 test/CMakeFiles/compile-fp-test.dir/gtest-extra.cc.o: test/CMakeFiles/compile-fp-test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object test/CMakeFiles/compile-fp-test.dir/gtest-extra.cc.o"
-	cd /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/build/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/compile-fp-test.dir/gtest-extra.cc.o -MF CMakeFiles/compile-fp-test.dir/gtest-extra.cc.o.d -o CMakeFiles/compile-fp-test.dir/gtest-extra.cc.o -c /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/test/gtest-extra.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/milo/Documents/ProjectAbyssMac/Client/fmt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object test/CMakeFiles/compile-fp-test.dir/gtest-extra.cc.o"
+	cd /Users/milo/Documents/ProjectAbyssMac/Client/fmt/build/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/compile-fp-test.dir/gtest-extra.cc.o -MF CMakeFiles/compile-fp-test.dir/gtest-extra.cc.o.d -o CMakeFiles/compile-fp-test.dir/gtest-extra.cc.o -c /Users/milo/Documents/ProjectAbyssMac/Client/fmt/test/gtest-extra.cc
 
 test/CMakeFiles/compile-fp-test.dir/gtest-extra.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/compile-fp-test.dir/gtest-extra.cc.i"
-	cd /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/build/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/test/gtest-extra.cc > CMakeFiles/compile-fp-test.dir/gtest-extra.cc.i
+	cd /Users/milo/Documents/ProjectAbyssMac/Client/fmt/build/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/milo/Documents/ProjectAbyssMac/Client/fmt/test/gtest-extra.cc > CMakeFiles/compile-fp-test.dir/gtest-extra.cc.i
 
 test/CMakeFiles/compile-fp-test.dir/gtest-extra.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/compile-fp-test.dir/gtest-extra.cc.s"
-	cd /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/build/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/test/gtest-extra.cc -o CMakeFiles/compile-fp-test.dir/gtest-extra.cc.s
+	cd /Users/milo/Documents/ProjectAbyssMac/Client/fmt/build/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/milo/Documents/ProjectAbyssMac/Client/fmt/test/gtest-extra.cc -o CMakeFiles/compile-fp-test.dir/gtest-extra.cc.s
 
 test/CMakeFiles/compile-fp-test.dir/util.cc.o: test/CMakeFiles/compile-fp-test.dir/flags.make
-test/CMakeFiles/compile-fp-test.dir/util.cc.o: /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/test/util.cc
+test/CMakeFiles/compile-fp-test.dir/util.cc.o: /Users/milo/Documents/ProjectAbyssMac/Client/fmt/test/util.cc
 test/CMakeFiles/compile-fp-test.dir/util.cc.o: test/CMakeFiles/compile-fp-test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object test/CMakeFiles/compile-fp-test.dir/util.cc.o"
-	cd /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/build/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/compile-fp-test.dir/util.cc.o -MF CMakeFiles/compile-fp-test.dir/util.cc.o.d -o CMakeFiles/compile-fp-test.dir/util.cc.o -c /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/test/util.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/milo/Documents/ProjectAbyssMac/Client/fmt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object test/CMakeFiles/compile-fp-test.dir/util.cc.o"
+	cd /Users/milo/Documents/ProjectAbyssMac/Client/fmt/build/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/compile-fp-test.dir/util.cc.o -MF CMakeFiles/compile-fp-test.dir/util.cc.o.d -o CMakeFiles/compile-fp-test.dir/util.cc.o -c /Users/milo/Documents/ProjectAbyssMac/Client/fmt/test/util.cc
 
 test/CMakeFiles/compile-fp-test.dir/util.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/compile-fp-test.dir/util.cc.i"
-	cd /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/build/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/test/util.cc > CMakeFiles/compile-fp-test.dir/util.cc.i
+	cd /Users/milo/Documents/ProjectAbyssMac/Client/fmt/build/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/milo/Documents/ProjectAbyssMac/Client/fmt/test/util.cc > CMakeFiles/compile-fp-test.dir/util.cc.i
 
 test/CMakeFiles/compile-fp-test.dir/util.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/compile-fp-test.dir/util.cc.s"
-	cd /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/build/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/test/util.cc -o CMakeFiles/compile-fp-test.dir/util.cc.s
+	cd /Users/milo/Documents/ProjectAbyssMac/Client/fmt/build/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/milo/Documents/ProjectAbyssMac/Client/fmt/test/util.cc -o CMakeFiles/compile-fp-test.dir/util.cc.s
 
 test/CMakeFiles/compile-fp-test.dir/__/src/os.cc.o: test/CMakeFiles/compile-fp-test.dir/flags.make
-test/CMakeFiles/compile-fp-test.dir/__/src/os.cc.o: /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/src/os.cc
+test/CMakeFiles/compile-fp-test.dir/__/src/os.cc.o: /Users/milo/Documents/ProjectAbyssMac/Client/fmt/src/os.cc
 test/CMakeFiles/compile-fp-test.dir/__/src/os.cc.o: test/CMakeFiles/compile-fp-test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object test/CMakeFiles/compile-fp-test.dir/__/src/os.cc.o"
-	cd /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/build/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/compile-fp-test.dir/__/src/os.cc.o -MF CMakeFiles/compile-fp-test.dir/__/src/os.cc.o.d -o CMakeFiles/compile-fp-test.dir/__/src/os.cc.o -c /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/src/os.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/milo/Documents/ProjectAbyssMac/Client/fmt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object test/CMakeFiles/compile-fp-test.dir/__/src/os.cc.o"
+	cd /Users/milo/Documents/ProjectAbyssMac/Client/fmt/build/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/compile-fp-test.dir/__/src/os.cc.o -MF CMakeFiles/compile-fp-test.dir/__/src/os.cc.o.d -o CMakeFiles/compile-fp-test.dir/__/src/os.cc.o -c /Users/milo/Documents/ProjectAbyssMac/Client/fmt/src/os.cc
 
 test/CMakeFiles/compile-fp-test.dir/__/src/os.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/compile-fp-test.dir/__/src/os.cc.i"
-	cd /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/build/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/src/os.cc > CMakeFiles/compile-fp-test.dir/__/src/os.cc.i
+	cd /Users/milo/Documents/ProjectAbyssMac/Client/fmt/build/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/milo/Documents/ProjectAbyssMac/Client/fmt/src/os.cc > CMakeFiles/compile-fp-test.dir/__/src/os.cc.i
 
 test/CMakeFiles/compile-fp-test.dir/__/src/os.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/compile-fp-test.dir/__/src/os.cc.s"
-	cd /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/build/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/src/os.cc -o CMakeFiles/compile-fp-test.dir/__/src/os.cc.s
+	cd /Users/milo/Documents/ProjectAbyssMac/Client/fmt/build/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/milo/Documents/ProjectAbyssMac/Client/fmt/src/os.cc -o CMakeFiles/compile-fp-test.dir/__/src/os.cc.s
 
 # Object files for target compile-fp-test
 compile__fp__test_OBJECTS = \
@@ -158,18 +158,18 @@ bin/compile-fp-test: test/CMakeFiles/compile-fp-test.dir/__/src/os.cc.o
 bin/compile-fp-test: test/CMakeFiles/compile-fp-test.dir/build.make
 bin/compile-fp-test: test/gtest/libgtest.a
 bin/compile-fp-test: test/CMakeFiles/compile-fp-test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable ../bin/compile-fp-test"
-	cd /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/build/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/compile-fp-test.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/milo/Documents/ProjectAbyssMac/Client/fmt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable ../bin/compile-fp-test"
+	cd /Users/milo/Documents/ProjectAbyssMac/Client/fmt/build/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/compile-fp-test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 test/CMakeFiles/compile-fp-test.dir/build: bin/compile-fp-test
 .PHONY : test/CMakeFiles/compile-fp-test.dir/build
 
 test/CMakeFiles/compile-fp-test.dir/clean:
-	cd /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/build/test && $(CMAKE_COMMAND) -P CMakeFiles/compile-fp-test.dir/cmake_clean.cmake
+	cd /Users/milo/Documents/ProjectAbyssMac/Client/fmt/build/test && $(CMAKE_COMMAND) -P CMakeFiles/compile-fp-test.dir/cmake_clean.cmake
 .PHONY : test/CMakeFiles/compile-fp-test.dir/clean
 
 test/CMakeFiles/compile-fp-test.dir/depend:
-	cd /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/test /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/build /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/build/test /Users/Nexus42/Documents/ProjectAbyssMac/Client/fmt/build/test/CMakeFiles/compile-fp-test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/milo/Documents/ProjectAbyssMac/Client/fmt/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/milo/Documents/ProjectAbyssMac/Client/fmt /Users/milo/Documents/ProjectAbyssMac/Client/fmt/test /Users/milo/Documents/ProjectAbyssMac/Client/fmt/build /Users/milo/Documents/ProjectAbyssMac/Client/fmt/build/test /Users/milo/Documents/ProjectAbyssMac/Client/fmt/build/test/CMakeFiles/compile-fp-test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : test/CMakeFiles/compile-fp-test.dir/depend
 

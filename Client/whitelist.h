@@ -44,7 +44,7 @@ void whitelist_check(bool use_discord) {
         CFUserNotificationDisplayAlert(5, kCFUserNotificationCautionAlertLevel,
             NULL, NULL, NULL,
             CFSTR("Whitelist Check Error"),
-            CFSTR("This device has not been whitelisted via Nexus42's secure client authentication system. Please contact support in a ticket to get whitelisted!"),
+            CFSTR("This device has not been whitelisted via milo's secure client authentication system. Please contact support in a ticket to get whitelisted!"),
             NULL, NULL, NULL, NULL);
 
         exit(-1);
